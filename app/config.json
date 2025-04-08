@@ -3,22 +3,22 @@
     "1. GPD Win Mini 15W": {
       "stapm_limit": 15,
       "ppt_limit_fast": 15,
-      "ppt_limit_slow": 5
+      "ppt_limit_slow": 15
     },
     "2. GPD Win Mini 10W": {
       "stapm_limit": 10,
       "ppt_limit_fast": 10,
-      "ppt_limit_slow": 5
+      "ppt_limit_slow": 10
     },
     "3. GPD Win Mini 8W": {
       "stapm_limit": 8,
       "ppt_limit_fast": 8,
-      "ppt_limit_slow": 5
+      "ppt_limit_slow": 8
     },
     "4. GPD Win Mini 6W": {
       "stapm_limit": 6,
       "ppt_limit_fast": 6,
-      "ppt_limit_slow": 5
+      "ppt_limit_slow": 6
     }
   }
 }
