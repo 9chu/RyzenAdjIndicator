@@ -15,6 +15,7 @@ sudo apt install cmake pkg-config build-essential libgtk-3-dev libayatana-appind
 To build the project, run the following commands:
 
 ```bash
+git submodule update --init --recursive
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
