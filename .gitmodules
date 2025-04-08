@@ -1,0 +1,9 @@
+[submodule "external/RyzenAdj"]
+	path = external/RyzenAdj
+	url = https://github.com/FlyGoat/RyzenAdj
+[submodule "external/nlohmann_json"]
+	path = external/nlohmann_json
+	url = https://github.com/nlohmann/json
+[submodule "external/fmt"]
+	path = external/fmt
+	url = https://github.com/fmtlib/fmt
