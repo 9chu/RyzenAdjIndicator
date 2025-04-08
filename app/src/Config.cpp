@@ -65,9 +65,12 @@ void Config::LoadFromJson(const nlohmann::json& json)
 
 void Config::LoadFromFile()
 {
-    if (std::filesystem::exists("config.json"))
+    auto currentBinaryPath = filesystem::canonical("/proc/self/exe");
+    auto configPath = currentBinaryPath.parent_path() / "config.json";
+
+    if (std::filesystem::exists(configPath))
     {
-        auto jsonStr = ReadWholeFile("config.json");
+        auto jsonStr = ReadWholeFile(configPath.c_str());
         auto json = nlohmann::json::parse(jsonStr);
         LoadFromJson(json);
     }
